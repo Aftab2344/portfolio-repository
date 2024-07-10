@@ -145,10 +145,7 @@ body{
     width: 1150px;
     height: 550px;
 }
-.third-section{
-    
-   
-}
+/* .third-section */
 #last-section{
     width: 1140;
     height: 480px;
@@ -160,13 +157,13 @@ body{
     gap: 60px;
     margin: 150px auto;
 }
-#last-section h2{
+.third-section-header h3{
     color: #0D1321;
-    font-size: 32;
+    font-size: 32px;
     font-weight: 700;
-
+    margin-bottom: 25px;
 }
-#last-section p{
+.third-section-header p{
     color: #0D1321;
     font-size: 16px;
     line-height: 26px;
@@ -178,12 +175,8 @@ body{
     justify-content: center;
     gap: 55px;
 }
-.languages h3{
-    color: #0D1321;
-    font-weight: 700;
-    font-size: 24px;
-}
-.languages p{
+
+  .languages .language p{
     color: #0D1321;
     line-height: 26px;
     text-align: start;
@@ -191,7 +184,45 @@ body{
     align-items: center;
     
 }
+/* .languages .language a{
+    text-decoration: underline;
+    color: #0D1321;
+    margin-top: 15px;
+} */
+
+.third-section{
+    height: auto;
+    width: 1140px;
+}
+.languages  h3{
+   
+    color: #0D1321;
+    font-weight: 700;
+    font-size: 34px;
+}
 .languages a{
     text-decoration: underline;
     color: #0D1321;
+    margin-top: 15px;
+}
+.languages p{
+
+    color: #0D1321;
+    line-height: 26px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    
+}
+.languages .html{
+    background-color: #ff4b1e23;
+    padding: 40px;
+}
+.languages .css{
+    background-color: #004de815;
+    padding: 40px;
+}
+.languages .javascript{
+    background-color: #ffdd0017;
+    padding: 40px;
 }
