@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* header section style */
@@ -54,6 +55,11 @@ body{
     font-size: 20px;
     font-weight: 700;
  }
+ .header .hero-section button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ 
  /* main section style */
  .main-section{
     height: 1400px;
@@ -174,14 +180,13 @@ body{
     align-items: center;
     justify-content: center;
     gap: 55px;
+    height: 300px;
+    width: auto;
 }
 
-  .languages .language p{
-    color: #0D1321;
-    line-height: 26px;
-    text-align: start;
-    display: flex;
-    align-items: center;
+  .languages .language {
+   
+    
     
 }
 /* .languages .language a{
@@ -203,7 +208,7 @@ body{
 .languages a{
     text-decoration: underline;
     color: #0D1321;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 .languages p{
 
@@ -225,4 +230,75 @@ body{
 .languages .javascript{
     background-color: #ffdd0017;
     padding: 40px;
+}
+footer{
+    width: 1140px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px auto;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+footer ul li{
+    list-style: none;
+    gap: 25px;
+}
+footer p{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 700;
+}
+.foot-baner{
+    height: 313px;
+    width: 1140px;
+    margin: 25px auto;
+    background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot-baner .baner-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+
+}
+.foot-baner .baner-div h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.foot-baner .baner-div p{
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+}
+.foot-baner .baner-div .input{
+    height: 57px;
+    width: 684px;
+    
+    
+}
+.foot-baner .baner-div .input input{
+        height: 57px;
+        width: 548px;
+        color: #0d13215d;
+        border: #0d13217e;
+        border-radius: 8px;
+}
+.foot-baner .baner-div .input button{
+    font-size: 20px;
+    font-weight: 700;
+    width: 120px;
+    height: 57px;
+    color: #0D1321;
+    border: #0d13217e;
+    border-radius: 8px;
 }
